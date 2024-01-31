@@ -26,3 +26,25 @@ document.write("Regalo de navidad 2023: " + regaloNavidad);
 const urlUniverse = "https://universe.rollingcodeschool.com/";
 
 document.write("<br>Pagina de Universe: " + urlUniverse);
+
+let precioSinImpuestos = 1100;
+let impuestos = 600;
+
+//() dan prioridad, en sumas se puede usar
+// OPCION 1 document.write("<br>El precio del Iphone 15 es: $" + (precioSinImpuestos + impuestos) + " USD");
+
+// OPCION 2 document.write("<br>El precio del Iphone 15 es: $" + (1100 + 600) + " USD");
+
+// OPCION 3
+let resultado = precioSinImpuestos + impuestos;
+document.write("<br>El precio del Iphone 15 es: $" + resultado + " USD");
+
+// Ejercicio del trabajo practico
+// prompt: es familia del alert, es una ventana emergente que esta creada con un imput, con un lugar para que el usuario agregue un dato
+// parseInt('50') transforma un texto a un numero entero
+// parseFloat('50.3') transfotma un texto a un numero decimal
+let gradosCelsius = parseInt(prompt('Ingrese un valor en grados centigrados'));
+console.log
+let gradosFahrenheit = (gradosCelsius * 9) / 5  + 32
+document.write('<br>' + gradosCelsius + '°C grados celsius equivale a ' + gradosFahrenheit + '°F grados farenheit')
+document.write('<br>Otro ejemplo :' +(gradosCelsius + 50))
