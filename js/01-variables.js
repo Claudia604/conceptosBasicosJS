@@ -43,8 +43,14 @@ document.write("<br>El precio del Iphone 15 es: $" + resultado + " USD");
 // prompt: es familia del alert, es una ventana emergente que esta creada con un imput, con un lugar para que el usuario agregue un dato
 // parseInt('50') transforma un texto a un numero entero
 // parseFloat('50.3') transfotma un texto a un numero decimal
-let gradosCelsius = parseInt(prompt('Ingrese un valor en grados centigrados'));
-console.log
-let gradosFahrenheit = (gradosCelsius * 9) / 5  + 32
-document.write('<br>' + gradosCelsius + '°C grados celsius equivale a ' + gradosFahrenheit + '°F grados farenheit')
-document.write('<br>Otro ejemplo :' +(gradosCelsius + 50))
+let gradosCelsius = parseInt(prompt("Ingrese un valor en grados centigrados"));
+console.log;
+let gradosFahrenheit = (gradosCelsius * 9) / 5 + 32;
+document.write(
+  "<br>" +
+    gradosCelsius +
+    "°C grados celsius equivale a " +
+    gradosFahrenheit +
+    "°F grados farenheit"
+);
+document.write("<br>Otro ejemplo :" + (gradosCelsius + 50));
